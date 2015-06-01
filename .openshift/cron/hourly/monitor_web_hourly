@@ -1,0 +1,3 @@
+#!/bin/bash
+# cd ${OPENSHIFT_REPO_DIR}/
+# nohup python job.py 2>&1 >> ${OPENSHIFT_LOG_DIR}/job.log &

@@ -1,0 +1,29 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        "configurable"
+    ],
+    "companyName": "mail@aravindavk.in",
+    "longName": "Website Monitor",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/menu_icon.png",
+                "menuIcon": true,
+                "name": "MENU_ICON",
+                "type": "png"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "webmon",
+    "targetPlatforms": [
+        "basalt"
+    ],
+    "uuid": "<UUID>",
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": false
+    }
+}

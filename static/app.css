@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #eee;       
+}
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+.header{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+.header h1{
+    margin: 0 10px;
+    padding: 0;
+    font-size: 22px;
+    color: #ddd;
+    font-family: sans-serif;
+}
+.header h1 img{
+    margin-right: 10px;
+    width: 40px;
+}
+.header p{
+    font-size: 13px;
+    color: #aaa;
+    margin: 0px 10px;
+    padding: 0;
+}
+.help-text{
+    font-size: 12px;
+    color: #333;
+    margin-bottom: 20px;
+}
+#save-url{
+    width: 90%;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.save-url-enabled{
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+}
+.save-url-disabled{
+    background-color: #aaa;
+    color: #fff;
+    font-weight: normal;
+}
+.url{
+    width: 90%;
+    margin: auto;
+    display: block;
+    padding: 10px 5px;
+    font-weight: bold;
+    font-size: 13px;
+}
+.good{
+    color: #333;
+    border: 1px solid #aaa;
+}
+.bad{
+    color: red;
+    border: 1px solid red;
+}
+.clear{
+    height: 10px;
+    clear: both;
+    width: 100%;
+}
+.setting{
+    min-height: 30px;
+    padding: 10px;
+    background-color: #ddd;
+    margin-bottom: 1px;
+}

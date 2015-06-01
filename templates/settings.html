@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Webmon - Configuration</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/static/app.css">
+    <script type="text/javascript" src="/static/jquery-2.1.3.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1><img src="/static/logo.png"/>WEBMON</h1>
+        <p>Website monitor app for Pebble</p>
+      </div>
+      <div class="settings">
+        <div class="setting">
+          <input type="checkbox" id="enable-tracking" checked="true"/>
+          <label for="enable-tracking">Enable Tracking</label>
+        </div>
+        <div class="setting"> 
+       <div class="help-text">
+        Add your website address which you want to track.(Ex: http://aravindavk.in)
+        </div>
+        <input type="text" id="url" class="url good"/>
+        </div>
+        <div class="setting"> 
+          <div id="save-url" class="save-url-enabled">save & close</div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="/static/app.js"></script>
+    <script type="text/javascript">
+     $( document ).ready(function() {
+       load();
+     });
+    </script>
+  </body>
+</html>
